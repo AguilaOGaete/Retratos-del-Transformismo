@@ -1,0 +1,17 @@
+/* Estilos personalizados */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #inicio {
+    background: url('assets/portada.jpg') no-repeat center center/cover;
+  }
+  
+  .gallery-img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-img:hover {
+    transform: scale(1.05);
+  }
